@@ -8,7 +8,7 @@ const showMenu = () => {
     menuDropped.style.margin = '0 0 0 -8px';
     setInterval(() => {
         let menuDropped = document.querySelector('.menu-dropped');
-        menuDropped.innerHTML = '<a class="menu-items" href="../index.html">Accueil du site</a><a class="menu-items" href="allquiz.html">Tous les quiz</a><a class="menu-items">Nous contacter</a>';
+        menuDropped.innerHTML = '<a class="menu-items" href="index.html">Accueil du site</a><a class="menu-items" href="allquiz.html">Tous les quiz</a><a class="menu-items">Nous contacter</a>';
     }, 500);
 };
 
